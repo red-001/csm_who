@@ -1,16 +1,18 @@
 # Who
 
-A Minetest Client Side Modding [CSM] to list all online players.
+A Minetest Client Side Mod [CSM] for listing online players.
 
 ![Viewing Online Players](/screenshot.jpg?raw=true "Viewing Online Players")
 
 # Usage
 
-This very simple mod registers a chatcommand for displaying the list:
+This very simple mod registers this chatcommand to display the list:
 
 ```
 .who
 ```
+
+Your own username is included, but in a muted color. The player list is sorted alphabetically with lua's `table.sort()`.
 
 ## Installation
 
