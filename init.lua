@@ -35,6 +35,7 @@ end)
 local function show_players()
 
 	local player_names = minetest.get_player_names()
+	table.sort(player_names)
 	local formspec = "size[3,6]" ..
 		"bgcolor[#080808BB;true]" ..
 		"background[5,5;1,1;gui_formbg.png;true]" ..
