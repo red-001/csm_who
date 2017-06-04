@@ -1,8 +1,9 @@
-# Who
+# Who Plus
 
-A Minetest Client Side Mod [CSM] for listing online players.
+A Minetest Client Side Mod [CSM] for listing online players and 
 
-![Viewing Online Players](/screenshot.jpg?raw=true "Viewing Online Players")
+![Viewing Online Players](/screenshot.png?raw=true "Viewing Online Players")
+![Moderator actions](/screenshot2.png?raw=true "Moderator actions")
 
 # Usage
 
