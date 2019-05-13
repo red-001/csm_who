@@ -85,7 +85,6 @@ core.register_on_formspec_input(function(formname, fields)
 		local selected = fields.player_list
 		if selected:sub(1,3) == "CHG" then
 			local index = tonumber(string.match(selected, "%d+"))
-			minetest.display_chat_message("index " .. index)
 			selected_player = player_names[tonumber(index)]
 			show_main_dialog()
 		end
